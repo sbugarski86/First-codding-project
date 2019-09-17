@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 body {
-  color: rgb(15, 4, 9);
+  color:rgb(229, 143, 193);
   font-family: 'Lato', 'Arial', sans-serif;
   font-weight: 300;
   font-size: 20px;
@@ -53,3 +53,53 @@ a:active {
     color: #000;
     border-bottom: 1px solid transparent;
 }
+/*---STICKY NAVI FOR WHICH I'M GOING TO US JQUERY TO MANIPULATE---*/
+.sticky{
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 2px 2px #efefef;
+  z-index: 9999;
+}
+.sticky .nav-li { margin-top: 18px; }
+.sticky .nav-li li a:link,
+.sticky .nav-li li a:visited {
+    padding: 20px 0;
+    color: #555;
+}
+
+/*------*/
+section{
+  background: rgba(247, 232, 232, 0.1);
+  padding: 80px 0;
+}
+h1,
+h2,
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+}
+h1{
+  margin-top:10px;
+  margin-bottom: 50px;
+  font-size: 240%;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
