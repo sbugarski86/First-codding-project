@@ -16,13 +16,18 @@ body {
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
 }
-/* IN THIS PART I DID CSS STYLE FOR HEADER----*/
+/* IN THIS PART I DID CSS STYLE FOR HEADERS----*/
 .index{
   background-image:url(img/Natalie\ logo-02.jpeg);
   background-size: cover;
   background-position: center;
   height: 100vh;
   background-attachment:fixed;
+}
+/*---STATEMENTS.HTML HEADER---*/
+.statements{
+  height: 100px;
+  background: rgb(85, 75, 75)
 }
 /* BEYOND IS STYLE FOR NAVIGATION BAR*/
 .ul-nav{
@@ -70,14 +75,13 @@ a:active {
     color: #555;
 }
 
-/*------*/
+/*--ADDING GENERAL STYLE TO THE SECTIONES----*/
 section{
   background:rgba(255, 255, 255, 0.8);
   padding: 80px 0;
-}
+ }
 h1,
-h2,
-h3 {
+h3{
     font-weight: 300;
     text-transform: uppercase;
     text-align: center;
@@ -89,8 +93,37 @@ h1{
   word-spacing: 4px;
   letter-spacing: 1px;
 }
+p{
+  margin: 20px;
+  text-align: center;
+}
+em{
+  font-size: 105%;
+  color: rgb(179, 8, 110);
+}
+/*---THIS IS STATEMENTS.HTML SECTION STYLE------*/
+.artist-stat{
+  width: 50%;
+  color: rgba(43, 16, 16, 0.842);
+  font-size: 110%;
+  margin-left: 10%
+}
+.art-img{
+  float:left;
+  margin-left: 10%;
+  margin-right: 5%;
+  margin-bottom: 3%;
+}
+.article{
+  margin-top: 5%;
+  margin-left:25%;
+}
+.art-p{
+  text-align:justify;
+}
 /*--------ADDING STYLE TO FOOTER-----------*/
 footer {
+  clear: both;
   background-color: #333;
   padding: 50px;
   font-size: 120%;
