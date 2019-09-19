@@ -39,7 +39,7 @@ body {
 .nav-li{
   display: inline-block;
   position:relative;
-  left:73%;
+  left:77%;
   margin-top:30px;
   margin-left: 10px;
   list-style: none;
@@ -187,11 +187,28 @@ footer {
 .h3-gallery{
   margin-bottom: -10%;
 }
+/*-----STYLE FOR RESUME-----*/
+.resume{
+  width: 60%;
+  margin-left: 20%;
+}
+.education > ul > li{
+  list-style: none;
+}
+.education{
+  margin:8%;
+  font-size: 110%;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}
 
-
-
-
-
+h4 {
+  margin-bottom: 5%;
+}
+.resume-h3{
+  font-size: 130%;
+  font-weight: 500;
+}
 
 
 
