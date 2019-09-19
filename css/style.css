@@ -39,7 +39,7 @@ body {
 .nav-li{
   display: inline-block;
   position:relative;
-  left:77%;
+  left:70%;
   margin-top:30px;
   margin-left: 10px;
   list-style: none;
@@ -52,11 +52,18 @@ a:visited {
     border-bottom: 1px solid rgb(229, 143, 193);
     transition: border-bottom 0.2s, color 0.2s;
 }
-
 a:hover,
 a:active {
     color: #000;
     border-bottom: 1px solid transparent;
+}
+.logo{
+  float: left;
+  height: 80px;
+  width:auto;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid  rgb(229, 143, 193);
 }
 /*---STICKY NAVI FOR WHICH I'M GOING TO US JQUERY TO MANIPULATE---*/
 .sticky{
