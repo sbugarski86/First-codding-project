@@ -32,10 +32,9 @@ body {
 /* BEYOND IS STYLE FOR NAVIGATION BAR*/
 .ul-nav{
   max-width: 100%;
-  height:10%;
+  height:100px;
   background: rgba(122,111,111, 0.2);
   box-shadow: 2px 2px 2px 2px rgba(229, 143, 193, 0.2);
-  
 }
 .nav-li{
   display: inline-block;
@@ -167,6 +166,28 @@ footer {
   text-align: center;
   margin-top:35px;
 }
+
+/*--STYLE FOR COURASEL IN GALERY.HTML---*/
+.carousel{
+  width:50%;
+  border-radius: 15px;
+  border: 5px solid rgb(208, 211, 205);
+  background: black;
+  margin-left: 25%;
+  margin-top:15%;
+}
+.carousel-item > img{
+  height: 400px;
+  width: auto;
+  margin: auto;
+}
+.gallery{
+  background: rgb(235, 235, 217);
+}
+.h3-gallery{
+  margin-bottom: -10%;
+}
+
 
 
 
