@@ -18,7 +18,7 @@ body {
 }
 /* IN THIS PART I DID CSS STYLE FOR HEADERS----*/
 .index {
-  background-image:url(css-logo/Natalie-logo-02.jpeg);
+  background-image:url(../img/logo/Natalie-logo-02.jpeg);
   background-size: cover;
   background-position: center;
   height: 100vh;
