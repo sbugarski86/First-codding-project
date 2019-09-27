@@ -42,6 +42,7 @@ margin-top:30px;
 margin-right: 10px;
 list-style: none
 }
+
 a:link,
 a:visited {
     color: rgb(204, 40, 190);
@@ -64,6 +65,54 @@ a:active {
   border-radius: 10px;
   border: 2px solid  rgb(229, 143, 193);
 }
+/* Mobile navi */
+.mobile-nav-icon {
+  float: right;
+  margin-top: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-nav-icon i {
+  font-size: 200%;
+  color: purple;
+}
+@media only screen and (max-width: 767px) {
+  .nav-li{
+    float: none; 
+    text-align: left;
+    margin: 10px;
+    padding: 3px;
+  }
+  .first-ul {
+    float: left;
+    margin-top: 105px;
+    margin-left: -140px;
+    background-color:rgba(0, 0, 0, 0.513);
+    
+  }
+  .nav-li {
+    display: none;
+  }
+  .mobile-nav-icon {display: inline-block; }
+  .visible{
+    display: block;
+ }
+	.nav-li a:link,
+	.nav-li a:visited {
+		display: block;
+		border: none;
+    font-size: 100%;
+    color: rgba(238, 235, 235, 0.972);
+  }
+  .nav-li a:hover,
+	.nav-li a:active {
+    color: #8edaf5;
+    border-bottom: none;
+  }
+
+}
 /*---STICKY NAVI FOR WHICH I'M GOING TO US JQUERY TO MANIPULATE---*/
 .sticky {
   position: fixed;
@@ -74,7 +123,6 @@ a:active {
   box-shadow: 0 2px 2px #efefef;
   z-index: 9999;
 }
-.sticky .nav-li { margin-top: 35px; }
 .sticky .nav-li li a:link,
 .sticky .nav-li li a:visited {
     color: #555;
