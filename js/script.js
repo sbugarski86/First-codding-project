@@ -23,19 +23,11 @@
 			wrap: true
 		});
 
-		$('#slider4').on('slide.bs.carousel', function () {
-			console.log('SLIDE!');
-		});
-
-		$('#slider4').on('slid.bs.carousel', function () {
-			console.log('SLID!');
-		});
-
 });
 var nav = document.getElementsByClassName('nav-li');
 var icon = document.querySelector('i');
 icon.addEventListener('click', function(){
 	for(var i = 0; i < nav.length; i++){
-			nav[i].classList.toggle('visible')
+			nav[i].classList.toggle('visible');
 		}
 })

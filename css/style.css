@@ -8,9 +8,9 @@
   box-sizing: border-box;
 }
 body {
-  background:rgba(122,111,111, 0.2);
+  background: rgba(122, 111, 111, 0.2);
   color: rgb(107, 43, 80);
-  font-family: 'Lato', 'Arial', sans-serif;
+  font-family: "Lato", "Arial", sans-serif;
   font-weight: 300;
   font-size: 20px;
   text-rendering: optimizeLegibility;
@@ -18,52 +18,56 @@ body {
 }
 /* IN THIS PART I DID CSS STYLE FOR HEADERS----*/
 .index {
-  background-image:url(../img/logo/Natalie-logo-02.jpeg);
+  background-image: url(../img/logo/Natalie-logo-02.jpeg);
   background-size: cover;
   background-position: center;
   height: 100vh;
-  background-attachment:fixed;
+  background-attachment: fixed;
 }
 /*---STATEMENTS.HTML HEADER---*/
 .statements {
   height: 100px;
-  background: rgb(85, 75, 75)
+  background: rgb(85, 75, 75);
 }
 /* BEYOND IS STYLE FOR NAVIGATION BAR*/
+.row {
+  float: right;
+}
 .ul-nav {
   width: 100%;
-  height:100px;
+  height: 100px;
   background: rgba(224, 223, 223, 0.774);
   box-shadow: 2px 2px 2px 2px rgba(229, 143, 193, 0.2);
 }
-.nav-li{
-float: right;
-margin-top:30px;
-margin-right: 10px;
-list-style: none
+.nav-li {
+  float: none;
+  display: inline-block;
+  margin-top: 30px;
+  margin-right: 10px;
+  list-style: none;
 }
 
 a:link,
 a:visited {
-    color: rgb(204, 40, 190);
-    font-weight:400;
-    text-decoration:none;
-    padding-bottom: 1px;
-    border-bottom: 2px solid  rgb(204, 40, 190);
-    transition: border-bottom 0.2s, color 0.2s;
+  color: rgb(204, 40, 190);
+  font-weight: 400;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 2px solid rgb(204, 40, 190);
+  transition: border-bottom 0.2s, color 0.2s;
 }
 a:hover,
 a:active {
-    color: rgb(97, 7, 89);
-    border-bottom: 1px solid transparent;
+  color: rgb(97, 7, 89);
+  border-bottom: 1px solid transparent;
 }
 .logo {
   float: left;
   height: 80px;
-  width:auto;
+  width: auto;
   margin: 10px;
   border-radius: 10px;
-  border: 2px solid  rgb(229, 143, 193);
+  border: 2px solid rgb(229, 143, 193);
 }
 /* Mobile navi */
 .mobile-nav-icon {
@@ -79,68 +83,69 @@ a:active {
   color: purple;
 }
 @media only screen and (max-width: 767px) {
-  .nav-li{
-    float: none; 
+  .nav-li {
+    float: none;
     text-align: left;
     margin: 10px;
     padding: 3px;
   }
   .first-ul {
-    float: left;
+    float: right;
     margin-top: 105px;
     margin-left: -140px;
-    background-color:rgba(0, 0, 0, 0.513);
-    
+    background-color: rgba(0, 0, 0, 0.513);
+    z-index: 1000;
   }
   .nav-li {
     display: none;
   }
-  .mobile-nav-icon {display: inline-block; }
-  .visible{
+  .mobile-nav-icon {
+    display: inline-block;
+  }
+  .visible {
     display: block;
- }
-	.nav-li a:link,
-	.nav-li a:visited {
-		display: block;
-		border: none;
+  }
+  .nav-li a:link,
+  .nav-li a:visited {
+    display: block;
+    border: none;
     font-size: 100%;
     color: rgba(238, 235, 235, 0.972);
   }
   .nav-li a:hover,
-	.nav-li a:active {
+  .nav-li a:active {
     color: #8edaf5;
     border-bottom: none;
   }
-
 }
 /*---STICKY NAVI FOR WHICH I'M GOING TO US JQUERY TO MANIPULATE---*/
 .sticky {
   position: fixed;
-  top:0;
-  left:0;
-  width:100%;
+  top: 0;
+  left: 0;
+  width: 100%;
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0 2px 2px #efefef;
   z-index: 9999;
 }
 .sticky .nav-li li a:link,
 .sticky .nav-li li a:visited {
-    color: #555;
+  color: #555;
 }
 
 /*--ADDING GENERAL STYLE TO THE SECTIONES----*/
 section {
-  background:rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.8);
   padding: 80px 0;
- }
+}
 h1,
-h3{
-    font-weight: 300;
-    text-transform: uppercase;
-    text-align: center;
+h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
 }
 h1 {
-  margin-top:10px;
+  margin-top: 10px;
   margin-bottom: 50px;
   font-size: 240%;
   word-spacing: 4px;
@@ -152,27 +157,27 @@ p {
 }
 em {
   font-size: 105%;
-  color:rgb(107, 43, 80);
+  color: rgb(107, 43, 80);
 }
 /*---THIS IS STATEMENTS.HTML SECTION STYLE------*/
 .artist-stat {
   width: 50%;
   color: rgba(43, 16, 16, 0.842);
   font-size: 110%;
-  margin-left: 10%
+  margin-left: 10%;
 }
-.art-img{
-  float:left;
+.art-img {
+  float: left;
   margin-left: 10%;
   margin-right: 5%;
   margin-bottom: 3%;
 }
 .article {
   margin-top: 5%;
-  margin-left:25%;
+  margin-left: 25%;
 }
 .art-p {
-  text-align:justify;
+  text-align: justify;
 }
 /*--------ADDING STYLE TO FOOTER-----------*/
 footer {
@@ -181,61 +186,63 @@ footer {
   padding: 50px;
   font-size: 120%;
 }
-.footer {
+.section-footer {
   list-style: none;
   float: left;
   margin-left: 2%;
 }
-.footer a {
+.section-footer a {
   border-bottom: none;
-  color:grey;
+  color: grey;
 }
 /*------STYLING THE SOCIAL MEDIA ICONS--------*/
 .ion-social-facebook,
 .ion-social-twitter,
 .ion-social-googleplus,
 .ion-social-instagram {
-    color: rgb(128, 128, 128);
-    text-decoration: none;
-    transition: color 0.2s;
+  color: rgb(128, 128, 128);
+  text-decoration: none;
+  transition: color 0.2s;
 }
 
 .ion-social-facebook:hover {
-    color: #3b5998;
+  color: #3b5998;
 }
 
 .ion-social-twitter:hover {
-    color: #00aced;
+  color: #00aced;
 }
 
 .ion-social-googleplus:hover {
-    color: #dd4b39;
+  color: #dd4b39;
 }
 
 .ion-social-instagram:hover {
-    color: #517fa4;
+  color: #517fa4;
 }
 /*-----ADDING STYLE TO THE COPYRIGHTS------*/
 .copyright {
   font-size: 60%;
   text-align: center;
-  margin-top:35px;
+  margin-top: 35px;
   color: rgb(204, 93, 158);
 }
 
 /*--STYLE FOR COURASEL IN GALERY.HTML---*/
 .carousel {
-  width:50%;
+  width: 50%;
   border-radius: 15px;
   border: 5px solid rgb(208, 211, 205);
   background: black;
   margin-left: 25%;
-  margin-top:15%;
+  margin-top: 15%;
+  z-index: 500;
 }
 .carousel-item > img {
   height: 400px;
   width: auto;
-  margin: auto;
+  margin: 0 auto;
+  z-index: 500;
 }
 .gallery {
   background: rgb(235, 235, 217);
@@ -244,15 +251,15 @@ footer {
   margin-bottom: -10%;
 }
 /*-----STYLE FOR RESUME-----*/
-.resume{
+.resume {
   width: 60%;
   margin-left: 20%;
 }
-.education > ul > li{
+.education > ul > li {
   list-style: none;
 }
 .education {
-  margin:8%;
+  margin: 8%;
   font-size: 110%;
   word-spacing: 4px;
   letter-spacing: 1px;
@@ -266,17 +273,18 @@ h4 {
   font-weight: 500;
 }
 /*-------STYLE FOR CONTACT FORM----*/
-.form-input{
- /* background: black;*/
+.section-form {
+  /* background: black;*/
   width: 100%;
   height: 80vh;
 }
-.input {
+.class-input {
   margin-top: 10vh;
-  height:400px;
+  height: 400px;
+  text-align: center;
 }
-.form {
- display: block;
+.form-li {
+  display: block;
   width: 40%;
   height: 50px;
   margin-left: 30%;
@@ -285,12 +293,16 @@ h4 {
   border: 2px rgb(131, 130, 130) solid;
   border-radius: 5px;
 }
-.submit {
-  background: rgb(13, 10, 190);
+.btn-submit {
+  background: rgb(87, 85, 218);
   color: rgb(214, 210, 210);
+  margin-top: 20px;
+  padding: 15px 60px;
   font-size: 80%;
+  border-radius: 10px;
+  transition: all 0.2s;
 }
-.submit:hover {
+.btn-submit:hover {
   background: rgb(8, 8, 105);
   color: rgb(241, 239, 239);
   font-size: 90%;
