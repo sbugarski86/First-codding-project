@@ -7,6 +7,7 @@ In this project I'm going to build a portfolio site for an artist. The site is g
 It is going to be possible to go back to the home page from any pages of the site.
 
 You'll be able to see the artists resume, contact information, buy art work online or order art work (like portraits...).
+You can find the project on <a href='https://ecstatic-bhaskara-e63e24.netlify.com'>https://ecstatic-bhaskara-e63e24.netlify.com</a>.
 
 For this project I'm going to use HTML5, CSS3 and some JavaScript.
 
